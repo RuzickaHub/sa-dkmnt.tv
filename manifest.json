@@ -1,0 +1,39 @@
+{
+  "id": "cz.dokumenty.tv.stremio",
+  "version": "2.0.0",
+  "name": "Dokumenty.TV (CZ/SK) - Release 2",
+  "description": "Katalog a streamy dokumentů ze stránky Dokumenty.TV. Používá scraping pro získání přímých odkazů na streamy.",
+  "icon": "https://i.imgur.com/QdG8mHl.png",
+  "resources": [
+    "catalog",
+    "stream"
+  ],
+  "types": [
+    "movie"
+  ],
+  "idPrefixes": [
+    "dtv"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "dokumentytv_all",
+      "name": "Dokumenty.TV",
+      "extra": [
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Poslední přidané",
+            "Nejsledovanější",
+            "Krimi",
+            "Historie",
+            "Příroda",
+            "Technika"
+          ]
+        }
+      ]
+    }
+  ],
+  "contactEmail": "volitelny@email.com"
+}
