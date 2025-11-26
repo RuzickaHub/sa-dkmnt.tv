@@ -1,24 +1,17 @@
 {
-  "name": "dokumenty-tv-stremio-addon",
-  "version": "2.0.0",
-  "description": "Stremio addon pro Dokumenty.TV (CZ/SK). Release 2.",
+  "name": "sa-dkmnt.tv",
+  "version": "1.0.0",
+  "description": "Addon for sa-dkmnt.tv",
   "main": "addon.js",
   "scripts": {
     "start": "node addon.js"
   },
   "dependencies": {
-    "stremio-addon-sdk": "",
-    "axios": "^1.7.2",
-    "cheerio": "^1.0.0-rc.12"
+    "stremio-addon-sdk": "^2.0.0"
   },
-  "keywords": [
-    "stremio",
-    "addon",
-    "dokumenty",
-    "dokumenty.tv",
-    "cz",
-    "sk"
-  ],
-  "author": "Jakub Růžička",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Tvoje jméno",
   "license": "MIT"
 }
